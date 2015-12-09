@@ -11,5 +11,9 @@
 <%= p.label :image %>
 <%= p.text_field :image %>
 <br>
+<%= p.label :team_id %>
+<% options = options_from_collection_for_select(@team, 'id', 'name') %>
+<%= p.select :team_id,  options %>
+<br>
 <%= p.submit 'Add new player' %>
 <% end %>

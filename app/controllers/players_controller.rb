@@ -5,6 +5,7 @@ class PlayersController < ApplicationController
   end
 
   def new
+    @team = Team.all
     @player = Player.new
   end
 
@@ -13,6 +14,7 @@ class PlayersController < ApplicationController
   end
 
   def edit
+    @team = Team.all
     player_finder
   end
 
@@ -40,7 +42,7 @@ class PlayersController < ApplicationController
   private
 
   def player_params
-    params.require(:player).permit(:name, :birthday, :broom, :image)
+    params.require(:player).permit(:name, :birthday, :broom, :image, :team_id)
   end
 
   def player_finder
