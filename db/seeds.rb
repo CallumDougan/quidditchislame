@@ -6,9 +6,9 @@ Team.create!(name: 'Kenmare Kestrels', founded: '24 May 1909', mascot: 'Kez')
 
 Player.delete_all
 
-Player.create!(name: 'Barry the Rubbish', birthday: '3 January 1985', broom: 'Boring', image: 'https://media.giphy.com/media/uoWXBIcx5Xm9y/giphy.gif', team_id: 1)
-Player.create!(name: 'Billy the Hopeless', birthday: '5 March 1980', broom: 'Irrelevant 4000', image: 'https://media.giphy.com/media/OQnBwqBlKjM1q/giphy.gif', team_id: 2)
-Player.create!(name: 'Some Other Boring Character', birthday: '19 August 1977', broom: 'Narrative Waste Mk 3', image: 'http://www.somegif.com/gifs/13596451071240786320.GIF', team_id: 3)
+Player.create!(name: 'Barry the Rubbish', birthday: '3 January 1985', broom: 'Boring', image: 'https://media.giphy.com/media/uoWXBIcx5Xm9y/giphy.gif', team_id: 13)
+Player.create!(name: 'Billy the Hopeless', birthday: '5 March 1980', broom: 'Irrelevant 4000', image: 'https://media.giphy.com/media/OQnBwqBlKjM1q/giphy.gif', team_id: 14)
+Player.create!(name: 'Some Other Boring Character', birthday: '19 August 1977', broom: 'Narrative Waste Mk 3', image: 'http://www.somegif.com/gifs/13596451071240786320.GIF', team_id: 15)
 
 
 

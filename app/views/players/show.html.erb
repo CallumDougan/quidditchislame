@@ -1,5 +1,5 @@
 <h1> <%= @player.name %> </h1>
-<!-- <p> player's team </p> -->
+<p> <%= @player.team.name %> </p>
 <%= image_tag(@player.image, alt:'No image', width: 200) %>
 <br><br>
 <b>Birthday: </b><br> <%= @player.birthday  %>

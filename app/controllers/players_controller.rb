@@ -31,6 +31,11 @@ class PlayersController < ApplicationController
     redirect_to(players_path)
   end
 
+  def team_finder
+    team = Team.find(params[player.team_id])
+    team.name
+  end
+
 
   private
 
