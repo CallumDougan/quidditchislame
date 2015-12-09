@@ -4,6 +4,10 @@ class PlayersController < ApplicationController
     @players = Player.all
   end
 
+  def show
+    player_finder
+  end
+
 
   private
   def player_finder
